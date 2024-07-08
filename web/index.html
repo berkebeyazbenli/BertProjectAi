@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basit soru cevap </title>
+</head>
+<body>
+    <h1>Yapay zeka destekli soru ve cevap</h1>
+    <form action="/ask" method="GET">
+        <label for="question">Soru</label><br>
+        <textarea id="question" name="question" rows="4" cols="50"></textarea><br><br>
+        <label for="context">Eğitilmesi istediğimiz paragraf</label><br>
+        <textarea id="context" name="context" rows="8" cols="50"></textarea><br><br>
+        <input type="submit" value="Ask">
+    </form>
+    <hr>
+    <div id="answer">
+    </div>
+    <script src="web/script.js"></script>
+</body>
+</html>
