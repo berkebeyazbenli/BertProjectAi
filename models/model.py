@@ -7,8 +7,10 @@ class QuestionAnsweringModel:
         self.model = None
         self.tokenizer = None
         self.load_model()
+        ##deneme
 
     def load_model(self):
+        ##deneme1234
         try:
             self.model = TFDistilBertForQuestionAnswering.from_pretrained(self.model_name)
             self.tokenizer = DistilBertTokenizer.from_pretrained(self.model_name)
