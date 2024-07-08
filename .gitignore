@@ -1,4 +1,12 @@
-node_modules/
-*.log
-/build/
+# Ignore environment directories
+myenv/
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore large library files
+*.dylib
+*.so
+*.dll
+
 
